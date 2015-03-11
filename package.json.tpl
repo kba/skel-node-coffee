@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "$DESC",
   "scripts": {
-    "test": "coffee test/* | tap-spec",
+    "test": "coffee test/*.coffee | tap-spec",
     "docs": "docker -i src -o apidocs -s -n -c vs",
     "compile": "coffee -c -o lib src",
     "clean": "rm -r apidocs lib ; true",

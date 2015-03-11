@@ -43,5 +43,5 @@ if [[ "$yesno" == "y" ]];then
     # init git
     cd $dir
     git init .
-    git remote add origin "git@github.com/$REPO"
+    git remote add origin "git@github.com/$GITHUB_USER/$NAME"
 fi
